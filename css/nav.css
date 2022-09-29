@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&family=Moo+Lah+Lah&family=Outfit:wght@200&family=Poppins:wght@300&family=Yellowtail&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding:0px;
+}
+.container{
+    width: 100%;
+}
+.content{
+    width: 85%;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+.container .top{
+    height: 90px;
+    background-color: white;
+
+}
+.container .top .content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+}
+.container .top .content .name{
+    background-color: white;
+    
+}
+.container .top .content .name a{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    width: 19%;
+    color:black;
+    height: 90px;
+}
+.container .top .content .name .logo{
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+.container .top .content .name .logo img{
+    height: 60px;
+}
+.container .top .content .name .leta{
+    display: flex;
+    background-color: white;
+    align-items: center;
+    width: 90%;
+}
+.container .top .content .name .leta #big{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 30px;
+}
+.container .top .content .name .leta #small{
+    font-size: 22px;
+    font-family: 'Yellowtail', cursive;
+}
+nav{
+    background-color: white;
+    width: 50%;
+}
+nav ul{
+    background-color: white;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+nav ul li{
+    list-style-type: none;
+    color: black;
+    font-size: 18px;
+}
+nav ul li a{
+    color: black;
+    font-family: poppins;
+}
+nav ul li a:hover{
+    border-bottom: 3px solid blue;
+    transition: 1s ease-in-out;
+}
+.menu{
+    display: none;
+}
+
+
+@media (min-width:1026px){
+    .container .top{
+        top:90px;
+    }
+    .container .top .content{
+        height: 90px;
+    }
+}
+
+
+@media (max-width:720px){
+    .container .top .content{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        height: auto;
+        flex-direction: column;
+        position: relative;
+        background-color: white;
+    }
+    .container .top .content .name .leta #big{
+        font-size: 20px;
+    }
+    .container .top .content .name .leta #small{
+        font-size: 14px;
+    }
+    .menu{
+        display: block;
+       
+    }
+    .menu img{
+        height: 50px;
+        position: absolute;
+        right: 0px;
+        top: 25px;
+       
+    }
+    nav{
+        display: none;
+    }
+    nav.active{
+        background-color: white;
+        width: 100%;
+        height: 90vh;
+    }
+    nav ul{
+        background-color: white;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        flex-direction: column;
+        height: 50%;
+    }
+}
+
+
+@media (max-width:500px){
+    body{
+        margin:0px;
+        padding: 0px;
+        box-sizing: border-box;
+        overflow-x: hidden;
+        width: 100%;
+    }
+    .content{
+        width: 90%;
+        margin: auto;
+    }
+    .container .top{
+        height: auto;
+        background-color: white;
+    }
+    .container .top .content{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        height: auto;
+        flex-direction: column;
+        position: relative;
+        background-color: white;
+    }
+    .container .top .content .name .leta #big{
+        font-size: 20px;
+    }
+    .container .top .content .name .leta #small{
+        font-size: 14px;
+    }
+    .menu{
+        display: block;
+       
+    }
+    .menu img{
+        height: 50px;
+        position: absolute;
+        right: 0px;
+        top: 25px;
+       
+    }
+    nav{
+        display: none;
+    }
+    nav.active{
+        background-color: white;
+        width: 100%;
+        height: 90vh;
+    }
+    nav ul{
+        background-color: white;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        flex-direction: column;
+        height: 50%;
+    }
+}

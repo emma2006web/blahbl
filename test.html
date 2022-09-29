@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="headins">
+            <button id="l">rads</button>
+            <button id="k">afaf</button>
+            <button id="j">acac</button>
+        </div>
+        <div class="word">
+            <p id="a">afljgagfjlgjmla</p>
+            <p id="b">fsdnfjdjkkkk</p>
+            <p id="c">jklapdfokj;oaifijljijjk</p>
+        </div>
+    </div>
+    <script>
+       var l =  document.getElementById('l');
+       var k =  document.getElementById('k');
+       var j =  document.getElementById('j');
+       var a =  document.getElementById('a');
+       var b =  document.getElementById('b');
+       var c =  document.getElementById('c');
+       console.log(b.innerHTML);
+       console.log(a.innerHTML);
+       b.style.display = 'none';
+       c.style.display = 'none';
+
+       l.addEventListener('click', ()=>{
+           a.style.display = 'block';
+           b.style.display = 'none';
+           c.style.display = 'none';
+       })
+       
+       k.addEventListener('click', ()=>{
+           a.style.display = 'none';
+           b.style.display = 'block';
+           c.style.display = 'none';
+       })
+
+       j.addEventListener('click', ()=>{
+           a.style.display = 'none';
+           b.style.display = 'none';
+           c.style.display = 'block';
+       })
+    </script>
+</body>
+</html>

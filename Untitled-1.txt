@@ -1,0 +1,45 @@
+if(screen.width < 500){
+                console.log(screen.width);
+                k.classList.add('active');
+            l.classList.remove('active');
+            l.style.cursor = 'pointer';
+            l.style.color = 'white';
+            l.style.background = 'rgb(58, 57, 57)';
+            l.style.padding = '8px';
+            l.style.borderRadius = '10px';
+            l.style.border = 'none';
+            l.style.fontFamily = 'poppins';
+            l.style.fontsize = '3px';
+            j.classList.remove('active');
+            a.style.display = 'none';
+            b.style.display = 'block';
+            c.style.display = 'none';
+            }else{
+
+                if(screen.width < 500){
+                console.log(screen.width);
+                k.classList.add('active');
+            l.classList.remove('active');
+            l.style.cursor = 'pointer';
+            l.style.color = 'white';
+            l.style.background = 'rgb(58, 57, 57)';
+            l.style.padding = '8px';
+            l.style.borderRadius = '10px';
+            l.style.border = 'none';
+            l.style.fontFamily = 'poppins';
+            l.style.fontsize = '3px';
+            j.classList.remove('active');
+            a.style.display = 'none';
+            b.style.display = 'block';
+            c.style.display = 'none';
+            }else{
+
+                 l.style.cursor = 'pointer';
+            l.style.color = 'white';
+            l.style.background = 'rgb(58, 57, 57)';
+            l.style.padding = '13px';
+            l.style.borderRadius = '10px';
+            l.style.border = 'none';
+            l.style.fontFamily = 'poppins';
+            l.style.fontsize = '15px';
+
